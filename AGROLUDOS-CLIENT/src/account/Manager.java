@@ -1,12 +1,11 @@
 package account;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import competizione.Competizione;
 
-public class Manager extends Account {
-
-	List<Competizione> competizioni;
+public class Manager extends Utente {
 
 	/**
 	 * Crea un'istanza di Manager.
@@ -22,7 +21,5 @@ public class Manager extends Account {
 	 * Aggiunge una competizione a quelle gestite dal manager.
 	 * @param competizione - la competizione da aggiungere
 	 */
-	public void addCompetizione(Competizione competizione){
-		this.competizioni.add(competizione);
-	}
+
 }
