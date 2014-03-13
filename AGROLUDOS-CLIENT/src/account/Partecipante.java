@@ -17,6 +17,7 @@ public class Partecipante extends Utente {
 	
 	public Partecipante(String surname, String name, String email) {
 		super(surname, name, email);
+		//TODO: finire il costruttore
 }
 
 }
