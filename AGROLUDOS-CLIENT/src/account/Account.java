@@ -13,7 +13,7 @@ public abstract class Account {
 	public Account(String surname, String name, String email) {
 		this.name = name;
 		this.surname = surname;
-		if (!isValidemail(email)) throw new InvalidmailException("Indirizzo email non valido");
+		if (!isValidemail(email)) throw new InvalidAddressException("Indirizzo email non valido");
 		this.email = email;
 	}
 	

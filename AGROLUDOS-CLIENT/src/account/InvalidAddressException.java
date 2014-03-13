@@ -1,13 +1,13 @@
 package account;
 
 @SuppressWarnings("serial")
-public class InvalidmailException extends RuntimeException {
+public class InvalidAddressException extends RuntimeException {
 
-	public InvalidmailException() {
+	public InvalidAddressException() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public InvalidmailException(String message) {
+	public InvalidAddressException(String message) {
 		super(message);
 		// TODO Auto-generated constructor stub
 	}
